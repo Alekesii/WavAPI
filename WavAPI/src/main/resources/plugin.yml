@@ -1,0 +1,17 @@
+name: WavAPI
+version: '1.0'
+main: fr.alekesi.WavAPI
+api-version: '1.21'
+authors: [ Alekesi ]
+description: UHC API
+commands:
+  scoreboard:
+    description: Commande pour afficher le scoreboard
+    usage: /scoreboard
+  host:
+    description: Gestion des hosts
+    usage: /host <add/remove/list>
+    permission: admin.host
+permissions:
+  admin.host:
+    description: Permission pour gérer les hosts
